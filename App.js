@@ -57,7 +57,7 @@ const HomeScreen = () => {
 
   const handlePress = () => {
     // Navigate to the CarSelection screen
-    navigation.navigate("CarSelection");
+    navigation.navigate("seleção de carros");
   };
 
   return (
@@ -84,7 +84,7 @@ const RootNavigator = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="CarSelection" component={CarSelectionScreen} />
+        <Stack.Screen name="seleção de carros" component={CarSelectionScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -106,12 +106,7 @@ const CarSelectionScreen = ({ navigation }) => {
         keyExtractor={item => item.id.toString()}
         numColumns={2}
       />
-      <Button
-        title="Continuar"
-        onPress={handlePress}
-        style={styles.button}
-        color="blue"
-      />
+
     </View>
   );
 };
