@@ -4,8 +4,6 @@ import {
   Text,
   View,
   ImageBackground,
-  TextInput,
-  Button,
   TouchableOpacity,
 } from "react-native";
 import { NavigationContainer, useNavigation } from "@react-navigation/native";
@@ -18,7 +16,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     display: "flex",
     justifyContent: "flex-end",
-    marginBottom: "5rem",
+    marginBottom: 50,
   },
   background: {
     flex: 1,
@@ -27,23 +25,29 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   span: {
-    fontSize: 45,
+    fontSize: 55,
     color: "#00A8A8",
-    marginLeft: -10,
+    
   },
   text: {
-    fontSize: 35,
+    fontSize: 45,
     marginBottom: 20,
     color: "white",
   },
   button: {
-    width: "100%",
+    width: 200,
     borderRadius: 10,
     fontSize: 25,
-    textAlign: 'center',
+    textAlign: "center",
     color: "white",
     backgroundColor: "#00A8A8",
     height: 35,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 25,
   },
 });
 
@@ -62,9 +66,12 @@ const HomeScreen = () => {
       style={styles.background}
     >
       <View style={styles.container}>
-        <Text style={styles.text}>Bem vindo ao <br /> <span style={styles.span}>Keuwe Eletrics</span> </Text>
-    
-        <TouchableOpacity style={styles.button} title="Entrar" onPress={handlePress} >Entrar</TouchableOpacity>
+        <Text style={styles.text}>
+          Bem vindo ao{"\n"} <Text style={styles.span}>Keuwe Eletrics</Text>
+        </Text>
+        <TouchableOpacity style={styles.button} onPress={handlePress}>
+          <Text style={styles.buttonText}>Entrar</Text>
+        </TouchableOpacity>
       </View>
     </ImageBackground>
   );
@@ -75,7 +82,7 @@ const Stack = createStackNavigator();
 const RootNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="CarSelection" component={CarSelectionScreen} />
       </Stack.Navigator>

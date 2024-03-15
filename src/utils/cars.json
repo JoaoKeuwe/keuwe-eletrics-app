@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "marca": "Tesla",
+    "modelo": "Model S",
+    "preco": "R$ 265.35/dia",
+    "imagem": "https://www.tesla.com/ownersmanual/images/GUID-5543BA62-932F-46C5-B1EF-44707D4726B2-online-en-US.png"
+  },
+  {
+    "id": 2,
+    "marca": "BYD",
+    "modelo": "Han EV",
+    "preco": "R$260/dia",
+    "imagem": "https://production.autoforce.com/uploads/version/profile_image/7500/comprar-ev_3809fe54a6.png"
+  },
+  {
+    "id": 3,
+    "marca": "Porsche",
+    "modelo": "Taycan",
+    "preco": "R$ 350.0/dia",
+    "imagem": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/52034/2023-Porsche-Taycan-front_52034_032_2400x1800_3H.png"
+  },
+  {
+    "id": 4,
+    "marca": "Chevrolet",
+    "modelo": "Bolt EV",
+    "preco": "R$ 140.0/dia",
+    "imagem": "https://www.chevrolet.com.br/bypass/gmccontenthub/chevrolet/brasil/colorizer_bolt_ev/images/colorizer/VERMELHO-RUBI-frente.png"
+  },
+  {
+    "id": 5,
+    "marca": "JAC",
+    "modelo": "JAC E",
+    "preco": "R$ 100.0/dia",
+    "imagem": "https://cdn.motor1.com/images/mgl/3WQkqR/s3/jac-e-js1-carro-eletrico-preco.jpg"
+  },
+  {
+    "id": 6,
+    "marca": "BYD D1",
+    "modelo": "BYD",
+    "preco": "R$ 350.0/dia",
+    "imagem": "https://production.autoforce.com/uploads/version/profile_image/8237/model_middle_webp_comprar-ev_8d75df0e62.png.webp"
+  },
+  {
+    "id": 7,
+    "marca": "NISSAN",
+    "modelo": "Leaf",
+    "preco": "R$ 180.0/dia",
+    "imagem": "https://apiapp.sualuz.com.br/wp/wp-content/uploads/2023/03/nissan-leaf.png"
+  },
+  {
+    "id": 8,
+    "marca": "Fiat",
+    "modelo": "fiat 500",
+    "preco": "R$ 250.0/dia",
+    "imagem": "https://500e.fiat.com.br/content/dam/fiat/products/332/312/0/2022/page/hero.png"
+  },
+  {
+    "id": 9,
+    "marca": "BYD",
+    "modelo": "BYD Seal",
+    "preco": "R$ 3500/dia",
+    "imagem": "https://cdn.appdealersites.com.br/jrca/byd/conteudo/mobile%20seal.png"
+  }
+]
