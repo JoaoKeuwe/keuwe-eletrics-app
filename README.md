@@ -1,5 +1,15 @@
 # Projeto Keuwe Eletrics app ⚡
 
+<div align=center>
+  
+https://github.com/JoaoKeuwe/keuwe-eletrics-app/assets/91097315/dc8a643e-888c-4482-80c0-9ac849aa48d8
+
+  
+</div>
+
+
+
+
 ## Sobre o Projeto
 
 O projeto Keuwe Eletrics tem como base um aplicativo de locação de veículos elétricos.
